@@ -30,7 +30,7 @@ public class AboutActivity extends AppCompatActivity {
         tvGithubUrl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String githubUrl = "https://github.com/yourusername/vehicle-loan-calculator";
+                String githubUrl = "https://github.com/Thaqif27/VehicleLoanCalculator";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl));
                 startActivity(intent);
             }
